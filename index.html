@@ -8,111 +8,122 @@
     <title>Resume</title>
 </head>
 <body>
-     <!--Main-->
-     <div class="main"> 
-        <!--Content main-->
-        <div class="main-content">
-            <!--about user-->
-            <div class="about">
-                <h1 class="about-name">Марта Михайлина</h1>
-               <p class="about-description">
-                20.07.2005 
+<!--Main-->
+<div class="main">
+    <!--Content main-->
+    <div class="main-content">
+        <!--about user-->
+        <section class="about">
+            <h1 class="about__name">Марта Михайлина</h1>
+            <p class="about__description">
+                20.07.2005
                 м.Тисмениця
-            </p></div>
-            <!--Projects-->
-            <div class="projects">
-                <h3 class="title">Проєкти</h3>
-            <ol class="projects-list">
-                <li class="project-item">
-                    <span class="project"><a href="https://martamykhailyna.github.io/zavd/" class="project-link">https://martamykhailyna.github.io/zavd/</a>
-                    <span class="project-brecket">[</span> <span>HTML5, CSS3</span><span class="project-brecket"> ]</span>
-                    </span>
+            </p></section>
+        <!--Projects-->
+        <section class="projects">
+            <h3 class="title">Проєкти</h3>
+            <ol class="projects__list">
+                <li class="project__item">
+                    <p class="project"><a href="https://martamykhailyna.github.io/zavd/" class="project-link">https://martamykhailyna.github.io/zavd/</a>
+                    <span class="project__brecket">[</span> <span>HTML5, CSS3</span><span
+                                class="project__brecket"> ]</span>
+                    </p>
                 </li>
-                <li class="project-item">
-                    <span class="project"><a href="https://koldovsky.github.io/753-team-03/" class="project-link">https://koldovsky.github.io/753-team-03/</a>
-                    <span class="project-brecket">[</span> <span>HTML5, CSS3</span><span class="project-brecket"> ]</span>
-                    </span>
+                <li class="project__item">
+                    <p class="project"><a href="https://koldovsky.github.io/753-team-03/" class="project-link">https://koldovsky.github.io/753-team-03/</a>
+                    <span class="project__brecket">[</span> <span>HTML5, CSS3</span><span
+                                class="project__brecket"> ]</span>
+                    </p>
                 </li>
             </ol>
-        </div>
-                <!--about-me-->
-                <div class="about_me">
-                    <h3 class="title">Про себе</h3>
-                    <div>
-                        <ul class="education-list">
-                                 <p>Швидко навчаюся, наполеглива, вмію працювати в команді, відповідальна.</p>                       
-                        </ul>
-                    </div>
-                    <!--skills-->
-                    <h3 class="title">Досвід</h3>
-                    <div>
-                        <ul class="experience education-list">
-                            <p>Завершила курс <a class="experience__course-certificate-link" href="img/course-certificate.pdf">HTML5/CSS3/JavaScript Fundamentals</a> від SoftServe.</p>
-                        </ul>
-                    </div>
-                </div>
+        </section>
+        <!--about-me-->
+        <section class="about_me">
+            <h3 class="title">Про себе</h3>
+            <div>
+                <ul class="education__list main-content__list">
+                    <li style="list-style: none;">
+                        <p>Швидко навчаюся, наполеглива, вмію працювати в команді, відповідальна.</p>
+                    </li>
+                </ul>
+            </div>
+            <!--skills-->
+            <h3 class="title">Досвід</h3>
+            <div>
+                <ul class="experience__list main-content__list">
+                   <li style="list-style: none;" class="experience__list-item">
+                       <p>Завершила курс
+                       <a class="experience__course-certificate-link" href="img/course-certificate.pdf">
+                           HTML5/CSS3/JavaScript Fundamentals</a>
+                       від SoftServe.</p>
+                   </li>
+                </ul>
+            </div>
+        </section>
         <!--education-->
-        <div class="Education">
+        <section class="Education">
             <h3 class="title">Освіта</h3>
             <!--Education1-->
-            <div>
-                <ul class="education-list"><li class="education-list-item"><h4 class="education-position">Тисменицький ліцей</h4>
-                <p class="period"> Вересень 2011 - Травень 2020 </p></li></ul>
-                <ul class="education-list">
-                    <li class="education-list-item">
-                        <h4 class="education-position">ВСП Фаховий коледж електронних приладів ІФНТУНГ</h4>
+            <div class="education__list-container">
+                <ul class="education__list main-content__list">
+                    <li class="education__list-item main-content__list-item"><h4 class="education-position">Тисменицький ліцей</h4>
+                        <p class="period"> Вересень 2011 - Травень 2020 </p></li>
+                </ul>
+                <ul class="education__list main-content__list">
+                    <li class="education__list-item main-content__list-item">
+                        <h4 class="education__position">ВСП Фаховий коледж електронних приладів ІФНТУНГ</h4>
                         <p class="period"> Вересень 2020 - зараз студентка 4 курсу </p>
                     </li>
                 </ul>
                 <h5 class="faculty">Спеціальність:</h5>
-                <ul class="education-list-item">
-                    121 Інженерія програмного забезпечення.
+                <ul class="faculty__list-item main-content__list">
+                    <li style="list-style: none;" class="main-content__list-item">121 Інженерія програмного забезпечення.</li>
                 </ul>
             </div>
-        </div>
-        </div>
-        <!--Sidebar-->
-        <aside class="sidebar">
-            <img src="img/my-photo.jpg" alt="user photo" class="photo">
-            <!--Contacts-->
-            <div class="contacts">
-                <h3 class="sidebar-title">Контакти</h3>
-                <div>
-                   <p> <span class="contact-type">Телефон:</span> 
-                     <a href="tel:+380963052959" class="contact-link">+380 96 305 2959</a></p>
-                   <p> 
-                    <span class="contact-type">Email:</span>
-                     <a href="martamykhailyna@gmail.com" class="contact-link">martamykhailyna@gmail.com</a></p>
-                </div>
-            </div>
-            <!--Tech Skills-->
-            <div class="tech-skills">
-                <h3 class="sidebar-title">Технічні навички</h3>
-                <ul class="tech-skills-list">
-                    <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span> </li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">CSS3</span></li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">SQL</span></li>
-                </ul>
-            </div>
-            <!--Soft Skills-->
-            <div class="soft-skills">
-                <h3 class="sidebar-title">Soft Skills</h3>
-                <ul class="tech-skills-list">
-                    <li class="tech-skills-item"><span class="tech-skills-text">Microsoft SQL SM Studio</span></li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">MySQL Workbench</span></li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">Python</span></li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">C++ VS</span></li>
-                </ul>
-            </div>
-            <!--Languages-->
-            <div class="soft-skills">
-                <h3 class="sidebar-title">Мови</h3>
-                <ul class="tech-skills-list">
-                    <li class="tech-skills-item"><span class="tech-skills-text">Українська</span></li>
-                    <li class="tech-skills-item"><span class="tech-skills-text">Англійська - B1</span></li>
-                </ul>
-            </div>
-        </aside>
+        </section>
     </div>
+    <!--Sidebar-->
+    <aside class="sidebar">
+        <img src="img/my-photo.jpg" alt="user photo" class="photo">
+        <!--Contacts-->
+        <section class="contacts">
+            <h3 class="sidebar__title">Контакти</h3>
+            <div>
+                <p><span class="contact__type">Телефон:</span>
+                    <a href="mailto:+380963052959" class="contact-link">+380 96 305 2959</a></p>
+                <p>
+                    <span class="contact__type">Email:</span>
+                    <a href="mailto:martamykhailyna@gmail.com" class="contact-link">martamykhailyna@gmail.com</a></p>
+            </div>
+        </section>
+        <!--Tech Skills-->
+        <section class="tech-skills">
+            <h3 class="sidebar__title">Технічні навички</h3>
+            <ul class="sidebar__list">
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">HTML5</span></li>
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">CSS3</span></li>
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">SQL</span></li>
+            </ul>
+        </section>
+        <!--Soft Skills-->
+        <section class="soft-skills">
+            <h3 class="sidebar__title">Soft Skills</h3>
+            <ul class="sidebar-lists">
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">Microsoft SQL SM Studio</span></li>
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">MySQL Workbench</span></li>
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">Python</span></li>
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">C++ VS</span></li>
+            </ul>
+        </section>
+        <!--Languages-->
+        <section class="soft-skills">
+            <h3 class="sidebar__title">Мови</h3>
+            <ul class="sidebar-lists">
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">Українська</span></li>
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">Англійська - B1</span></li>
+            </ul>
+        </section>
+    </aside>
+</div>
 </body>
 </html>
