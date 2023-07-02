@@ -4,12 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Resume</title>
 </head>
 <body>
-    <div class="landing">
-        <aside>
-            <img src="img/my-photo.JPG" alt="Photo">
+     <!--Main-->
+     <div class="main"> 
+        <!--Content main-->
+        <div class="main-content">
+            <!--about user-->
+            <div class="about">
+                <h1 class="about-name">Марта Михайлина</h1>
+               <p class="about-description">
+                20.07.2005 
+                м.Тисмениця
+            </p></div>
+            <!--Projects-->
+            <div class="projects">
+                <h3 class="title">Проєкти</h3>
+            <ol class="projects-list">
+                <li class="project-item">
+                    <span class="project"><a href="https://martamykhailyna.github.io/zavd/" class="project-link">https://martamykhailyna.github.io/zavd/</a>
+                    <span class="project-brecket">[</span> <span>HTML5, CSS3</span><span class="project-brecket"> ]</span>
+                    </span>
+                </li>
+                <li class="project-item">
+                    <span class="project"><a href="https://koldovsky.github.io/753-team-03/" class="project-link">https://koldovsky.github.io/753-team-03/</a>
+                    <span class="project-brecket">[</span> <span>HTML5, CSS3</span><span class="project-brecket"> ]</span>
+                    </span>
+                </li>
+            </ol>
+        </div>
+                <!--about-me-->
+                <div class="about_me">
+                    <h3 class="title">Про себе</h3>
+                    <div>
+                        <ul class="education-list">
+                                 <p>Швидко навчаюся, наполеглива, вмію працювати в команді, відповідальна.</p>                       
+                        </ul>
+                    </div>
+                    <!--skills-->
+                    <h3 class="title">Досвід</h3>
+                    <div>
+                        <ul class="experience education-list">
+                            <p>Завершила курс <a class="experience__course-certificate-link" href="img/course-certificate.pdf">HTML5/CSS3/JavaScript Fundamentals</a> від SoftServe.</p>
+                        </ul>
+                    </div>
+                </div>
+        <!--education-->
+        <div class="Education">
+            <h3 class="title">Освіта</h3>
+            <!--Education1-->
+            <div>
+                <ul class="education-list"><li class="education-list-item"><h4 class="education-position">Тисменицький ліцей</h4>
+                <p class="period"> Вересень 2011 - Травень 2020 </p></li></ul>
+                <ul class="education-list">
+                    <li class="education-list-item">
+                        <h4 class="education-position">ВСП Фаховий коледж електронних приладів ІФНТУНГ</h4>
+                        <p class="period"> Вересень 2020 - зараз студентка 4 курсу </p>
+                    </li>
+                </ul>
+                <h5 class="faculty">Спеціальність:</h5>
+                <ul class="education-list-item">
+                    121 Інженерія програмного забезпечення.
+                </ul>
+            </div>
+        </div>
+        </div>
+        <!--Sidebar-->
+        <aside class="sidebar">
+            <img src="img/my-photo.jpg" alt="user photo" class="photo">
+            <!--Contacts-->
+            <div class="contacts">
+                <h3 class="sidebar-title">Контакти</h3>
+                <div>
+                   <p> <span class="contact-type">Телефон:</span> 
+                     <a href="tel:+380963052959" class="contact-link">+380 96 305 2959</a></p>
+                   <p> 
+                    <span class="contact-type">Email:</span>
+                     <a href="martamykhailyna@gmail.com" class="contact-link">martamykhailyna@gmail.com</a></p>
+                </div>
+            </div>
+            <!--Tech Skills-->
+            <div class="tech-skills">
+                <h3 class="sidebar-title">Технічні навички</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span> </li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">CSS3</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">SQL</span></li>
+                </ul>
+            </div>
+            <!--Soft Skills-->
+            <div class="soft-skills">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-text">Microsoft SQL SM Studio</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">MySQL Workbench</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Python</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">C++ VS</span></li>
+                </ul>
+            </div>
+            <!--Languages-->
+            <div class="soft-skills">
+                <h3 class="sidebar-title">Мови</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-text">Українська</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Англійська - B1</span></li>
+                </ul>
+            </div>
         </aside>
     </div>
 </body>
