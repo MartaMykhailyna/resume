@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #F5F7FA;
 }
 
 /*main styles*/
@@ -19,7 +18,6 @@ body {
 
 .main-content {
     background-color: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     padding: 105px 90px;
 }
 
