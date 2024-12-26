@@ -69,10 +69,14 @@ body {
     margin-left: 15px;
 }
 
+.project__item:not(:first-child) {
+    margin-top: 10px;
+}
+
 .project__item {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #333300;
 }
@@ -80,7 +84,7 @@ body {
 .project, .project-link {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #524B3E;
 }
@@ -100,28 +104,34 @@ body {
 
 .education {
     height: 115px;
-    width: 330px;
+    width: 100%;
     margin-top: 45px;
     margin-left: 3px;
 }
-
+.education__list *:not(h4, li){
+    padding-left:10px;
+}
 .education__position {
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 20px;
     color: #333300;
     margin-bottom: 10px;
 }
-
-
-.period {
+.education h4{
+    font-size: 19px;
+}
+.small-text{
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 16px;
     color: #524B3E;
     margin-bottom: 10px;
+}
+.text-bold{
+    font-weight: 700;
 }
 
 .line {
@@ -132,25 +142,23 @@ body {
     color: #333300;
 }
 
-.main-content__list {
+ /* .main-content__list {
     padding: 0;
     margin-left: 15px;
     color: #333300;
-}
+} */
 
 .main-content__list-item {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #333300;
+    margin-bottom: 20px;    
 }
+
+/*
 .experience__list-item a{
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     color: #524B3E;
-}
+} */
 
 /*sidebar styles*/
 
@@ -204,7 +212,9 @@ body {
 .tech-skills {
     margin-top: 15px;
 }
-
+.sidebar__list{
+    padding-left: 30px;
+}
 .sidebar__list-item {
     color: #524B3E;
 }
