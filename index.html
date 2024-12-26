@@ -1,24 +1,15 @@
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Resume</title>
-</head>
+<html>
 <body>
 <!--Main-->
-<div class="main">
+<div class="main" id="main">
     <!--Content main-->
     <div class="main-content">
         <!--about user-->
         <section class="about">
             <h1 class="about__name">Марта Михайлина</h1>
             <p class="about__description">
-                25.08.2005
+                20.07.2005
                 <hr>
-                м.Івано-Франківськ
             </p>
         </section>
         <!--Projects-->
@@ -68,20 +59,26 @@
             <!--Education1-->
             <div class="education__list-container">
                 <ul class="education__list main-content__list">
-                    <li class="education__list-item main-content__list-item"><h4 class="education-position"> Івано-Франківський ліцей</h4>
-                        <p class="period"> Вересень 2011 - Травень 2020 </p></li>
+                    <li class="education__list-item main-content__list-item"><h4 class="education-position"> КНУ ім. Тараса Шевченка</h4>
+                        <p class="period"> Вересень 2024 - зараз студентка 2 курсу </p></li>
+                    <h5 class="faculty">Спеціальність:</h5>
+                    <div class="faculty__list-item main-content__list">
+                        <p style="list-style: none;" class="main-content__list-item">121 Інженерія програмного
+                            забезпечення.
+                        </p>
+                    </div>
                 </ul>
                 <ul class="education__list main-content__list">
                     <li class="education__list-item main-content__list-item">
                         <h4 class="education__position">ВСП Фаховий коледж електронних приладів ІФНТУНГ</h4>
-                        <p class="period"> Вересень 2020 - зараз студентка 4 курсу </p>
+                        <p class="period"> Вересень 2020 - Червень 2024 </p>
                     </li>
-                </ul>
-                <h5 class="faculty">Спеціальність:</h5>
-                <ul class="faculty__list-item main-content__list">
-                    <li style="list-style: none;" class="main-content__list-item">121 Інженерія програмного
-                        забезпечення.
-                    </li>
+                    <h5 class="faculty">Спеціальність:</h5>
+                    <div class="faculty__list-item main-content__list">
+                        <p style="list-style: none;" class="main-content__list-item">121 Інженерія програмного
+                            забезпечення.
+                        </p>
+                    </div>
                 </ul>
             </div>
         </section>
@@ -98,15 +95,7 @@
                     </li>
                 </ul>
             </div>
-            <h3 class="title">Software Skills</h3>
-            <div>
-                <ul class="education__list main-content__list">
-                    <li style="list-style: none;">
-                        <p style="line-height: 30px;">Figma, GitHub, Jira, PostgreSql, MySQL Workbench, Microsoft Office</p>
-                    </li>
-                </ul>
-            </div>
-
+    
         </section>
     </div>
     <!--Sidebar-->
@@ -115,12 +104,17 @@
         <!--Contacts-->
         <section class="contacts">
             <h3 class="sidebar__title">Контакти</h3>
-            <div>
+            <div class="contact-container">
                 <p><span class="contact__type">Телефон:</span>
-                    <a href="mailto:+38096305****" class="contact-link">+380 96 305 ****</a></p>
+                    <a href="mailto:+380963052959" class="contact-link">+380 96 305 29 59</a></p>
                 <p>
                     <span class="contact__type">Email:</span>
-                    <a href="mailto:martamykhailyna@gmail.com" class="contact-link">martamykhailyna@gmail.com</a></p>
+                    <a href="mailto:martamykhailyna@gmail.com" class="contact-link">martamykhailyna@gmail.com</a>
+                </p>
+                <p>
+                    <span class="contact__type">Github:</span>
+                    <a href="https://github.com/MartaMykhailyna" taget="_blank" class="contact-link">https://github.com/MartaMykhailyna</a>
+                </p>
             </div>
         </section>
         <!--Tech Skills-->
@@ -131,9 +125,13 @@
                 <li class="sidebar__list-item"><span class="sidebar__list-item-text">Bootstrap</span></li>
                 <li class="sidebar__list-item"><span class="sidebar__list-item-text">Адаптивна верстка</span></li>
                 <li class="sidebar__list-item"><span class="sidebar__list-item-text">Базові знання JavaScript</span></li>
-                <li class="sidebar__list-item"><span class="sidebar__list-item-text">Базові знання Python</span></li>
-                <li class="sidebar__list-item"><span class="sidebar__list-item-text">SQL</span></li>
-            </ul>
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">Базові знання Python, Django</span></li>
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">MySQL</span></li>
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">PostgreSQL</span></li>
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">Figma</span></li>
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">Github</span></li>
+                <li class="sidebar__list-item"><span class="sidebar__list-item-text">Jira</span></li>
+            </ul> </span>
         </section>
         <!--Soft Skills-->
         <section class="soft-skills">

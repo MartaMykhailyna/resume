@@ -162,8 +162,7 @@ body {
 
 .contacts {
     margin-left: 40px;
-    margin-bottom: 50px;
-    height: 90px;
+    margin-bottom: 40px;
 }
 
 .contacts, .tech-skills, .soft-skills {
@@ -197,7 +196,7 @@ body {
 }
 
 .tech-skills {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .sidebar__list-item {
